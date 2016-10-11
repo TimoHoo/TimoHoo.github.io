@@ -390,7 +390,7 @@ fi: &DEFAULT_FI
   comment_success_msg        : "Kiitos kommentistasi! Se näytetään tällä sivulla hyväksynnän jälkeen."
   comment_error_msg          : "Virhe, kommenttia lähetettäessä tuli virhe. Tarkista, että kaikki kentät on täytetty oikein ja yritä uudelleen."
   loading_label              : "Ladataan..."
-fi-FI
+fi-FI:
 <<: *DEFAULT_FI
 
 # Another locale
