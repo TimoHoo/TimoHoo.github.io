@@ -351,13 +351,13 @@ zh: &DEFAULT_ZH
   zh-TW:
     <<: *DEFAULT_ZH
 
-# Finish (Suomi fi-FI)
+# Finish
 # -----------------
 fi: &DEFAULT_FI
   page                       : "Sivu"
   pagination_previous        : "Edellinen"
   pagination_next            : "Seuraava"
-  breadcrumb_home_label      : "Home"
+  breadcrumb_home_label      : "Etusivu"
   breadcrumb_separator       : "/"
   toc_label                  : "Tällä sivulla"
   ext_link_label             : "Suora Linkki"
@@ -365,7 +365,7 @@ fi: &DEFAULT_FI
   minute_read                : "minuuttia lukuaikaa"
   share_on_label             : "Jaa tämä"
   meta_label                 :
-  tags_label                 : "Leimat:"
+  tags_label                 : "Avainsanat:"
   categories_label           : "Kategoriat:"
   date_label                 : "Päivitetty:"
   comments_label             : "Jätä kommentti"
@@ -374,14 +374,14 @@ fi: &DEFAULT_FI
   related_label              : "Katso myös täältä"
   follow_label               : "Seuraa:"
   feed_label                 : "Täytä"
-  powered_by                 : "Powered by"
+  powered_by                 : "Käyttövoimana"
   website_label              : "Web osoite"
   email_label                : "Sähköposti"
-  recent_posts               : "Viimeisimmät Päivitykset"
+  recent_posts               : "Uudet viestit"
   undefined_wpm              : "Parametri 'words_per_minute' on määrittämättä tiedostossa _config.yml"
   comment_form_info          : "Sähköpostiosoitettasi ei julkaista. Pakolliset kentät on merkitty."
   comment_form_comment_label : "Kommentti"
-  comment_form_md_info       : "Markdown on tuettu."
+  comment_form_md_info       : "Voit käyttää Markdown -muotoilumerkintöjä."
   comment_form_name_label    : "Nimi"
   comment_form_email_label   : "Sähköpostiosoite"
   comment_form_website_label : "Web osoite (ei pakollinen)"
@@ -391,7 +391,7 @@ fi: &DEFAULT_FI
   comment_error_msg          : "Virhe, kommenttia lähetettäessä tuli virhe. Tarkista, että kaikki kentät on täytetty oikein ja yritä uudelleen."
   loading_label              : "Ladataan..."
 fi-FI:
-<<: *DEFAULT_FI
+  <<: *DEFAULT_FI
 
 # Another locale
 # --------------
