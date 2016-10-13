@@ -366,7 +366,7 @@ fi: &DEFAULT_FI
   share_on_label             : "Jaa tämä"
   meta_label                 :
   tags_label                 : "Avainsanat:"
-  categories_label           : "Kategoriat:"
+  categories_label           : "Aiheet:"
   date_label                 : "Päivitetty:"
   comments_label             : "Jätä kommentti"
   comments_title             : "Kommentit"
