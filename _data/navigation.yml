@@ -1,22 +1,22 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Seura"
+    url: /_pages/Seura/
 
-  - title: "Posts"
-    url: /year-archive/
+  - title: "Metsästys"
+    url: /_pages/Metsastys/
 
-  - title: "Categories"
-    url: /categories/
+  - title: "Riistariihi"
+    url: /_pages/Riistariihi/
 
-  - title: "Tags"
-    url: /tags/
+  - title: "Linkit"
+    url: /_pages/Linkit/
 
-  - title: "Pages"
-    url: /_pages
+  - title: "Yhteystiedot"
+    url: /_pages/Yhteystiedot/
 
-  - title: "Collections"
-    url: /collection-archive/
+  - title: "Arkisto"
+    url: /_pages/Arkisto/
 
   - title: "External Link to mmistakes doc"
     url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
