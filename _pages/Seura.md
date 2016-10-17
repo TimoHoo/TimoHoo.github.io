@@ -5,7 +5,7 @@ type: pages
 
 excerpt: "Tämä on excerpt -teksti joka tulee näkyville kuvan päälle."
 sitemap: true
-permalink: /_pages/Seura
+permalink: /Seura
 
 header:
   overlay_image: Maisema_banner.png
