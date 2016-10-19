@@ -1,22 +1,22 @@
 # main links
 main:
   - title: "Seura"
-    url: /Seura/
+    url: /Seura
 
   - title: "Metsästys"
-    url: /Metsastys/
+    url: /Metsastys
 
   - title: "Riistariihi"
-    url: /Riistariihi/
+    url: /Riistariihi
 
   - title: "Linkit"
-    url: /Linkit/
+    url: /Linkit
 
   - title: "Yhteystiedot"
-    url: /Yhteystiedot/
+    url: /Yhteystiedot
 
   - title: "Arkisto"
-    url: /Arkisto/
+    url: /Arkisto
 
   - title: "External Link to mmistakes doc"
     url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
