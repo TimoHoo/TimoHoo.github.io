@@ -4,20 +4,19 @@ main:
     url: /Seura/
 
   - title: "Metsästys"
-    url: /_pages/Metsastys/
+    url: /Metsastys/
 
   - title: "Riistariihi"
-    url: /_pages/Riistariihi/
+    url: /Riistariihi/
 
   - title: "Linkit"
-    url: /_pages/Linkit/
+    url: /Linkit/
 
   - title: "Yhteystiedot"
-    url: /_pages/Yhteystiedot/
+    url: /Yhteystiedot/
 
   - title: "Arkisto"
-    url: /_pages/Arkisto/
+    url: /Arkisto/
 
   - title: "External Link to mmistakes doc"
     url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
-

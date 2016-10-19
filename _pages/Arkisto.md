@@ -1,11 +1,11 @@
 ---
 title: "Arkisto"
 layout: single
-type: pages
+type: category_archive
 
 excerpt: "Tämä on excerpt -teksti joka tulee näkyville kuvan päälle."
 sitemap: true
-permalink: /_pages/Arkisto
+permalink: /Arkisto
 
 header:
   overlay_image: Maisema_banner.png
@@ -26,5 +26,4 @@ header:
 
 Taulukon otsikko | Taulukon otsikko2 | Taulukon otsikko3
 Taulukon solu | Taulukon solu | Taulukon solu
-Taulukon solu | Taulukon solu | Taulukon solu 
-
+Taulukon solu | Taulukon solu | Taulukon solu

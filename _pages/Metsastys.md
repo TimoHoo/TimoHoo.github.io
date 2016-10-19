@@ -5,7 +5,7 @@ type: pages
 
 excerpt: "Tämä on excerpt -teksti joka tulee näkyville kuvan päälle."
 sitemap: true
-permalink: /_pages/Metsastys
+permalink: /Metsastys
 
 header:
   overlay_image: Maisema_banner.png
@@ -26,5 +26,4 @@ header:
 
 Taulukon otsikko | Taulukon otsikko2 | Taulukon otsikko3
 Taulukon solu | Taulukon solu | Taulukon solu
-Taulukon solu | Taulukon solu | Taulukon solu 
-
+Taulukon solu | Taulukon solu | Taulukon solu
