@@ -1,29 +1,22 @@
 ---
 title: "Arkisto"
-layout: single
-type: category_archive
+layout: archive
+# type: category_archive
 
-excerpt: "Tämä on excerpt -teksti joka tulee näkyville kuvan päälle."
+excerpt: "Tämä on excerpt -teksti."
 sitemap: true
 permalink: /Arkisto
-
-header:
-  overlay_image: Maisema_banner.png
-  caption: "Photo: Timo Hoo"
+author_profile: true
 ---
 
 {% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
 
-# Ykköstason otsikko
-
-## Kakkostason otsikko
-
-1. Listan jäsen
-2. Listan jäsen
-3. Listan jäsen
-   1. Listan jäsen
-   2. Listan jäsen
-
-Taulukon otsikko | Taulukon otsikko2 | Taulukon otsikko3
-Taulukon solu | Taulukon solu | Taulukon solu
-Taulukon solu | Taulukon solu | Taulukon solu
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+   <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+   {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}

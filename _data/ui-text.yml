@@ -362,7 +362,7 @@ fi: &DEFAULT_FI
   toc_label                  : "Tällä sivulla"
   ext_link_label             : "Suora Linkki"
   less_than                  : "alle"
-  minute_read                : "minuuttia lukuaikaa"
+  minute_read                : "min lukuaika"
   share_on_label             : "Jaa tämä"
   meta_label                 :
   tags_label                 : "Avainsanat:"
@@ -371,7 +371,7 @@ fi: &DEFAULT_FI
   comments_label             : "Jätä kommentti"
   comments_title             : "Kommentit"
   more_label                 : "Lisätietoja"
-  related_label              : "Katso myös täältä"
+  related_label              : "Katso myös nämä viestit:"
   follow_label               : "Seuraa:"
   feed_label                 : "Täytä"
   powered_by                 : "Käyttövoimana"
@@ -387,7 +387,7 @@ fi: &DEFAULT_FI
   comment_form_website_label : "Web osoite (ei pakollinen)"
   comment_btn_submit         : "Lähetä Kommentti"
   comment_btn_submitted      : "Lähetetty"
-  comment_success_msg        : "Kiitos kommentistasi! Se näytetään tällä sivulla hyväksynnän jälkeen."
+  comment_success_msg        : "Kiitos kommentistasi! Se näytetään tällä sivulla heti hyväksynnän jälkeen."
   comment_error_msg          : "Virhe, kommenttia lähetettäessä tuli virhe. Tarkista, että kaikki kentät on täytetty oikein ja yritä uudelleen."
   loading_label              : "Ladataan..."
 fi-FI:

@@ -1,20 +1,20 @@
 ---
-title: "PMS ry"
+title: "Etusivu"
 layout: splash
 type: pages
-excerpt: "Tämä teksti tulee näkyville kuvan päällä."
-sitemap: false
+excerpt: "Linkistä alla metsästysalueiden kartalle:"
+sitemap: true
 
 header:
   overlay_image: Maisema_banner.png
   caption: "Photo: Timo Hoo"
-  cta_label: "More Info"
-  cta_url: "https://unsplash.com"
+  cta_label: "Kartat"
+  cta_url: "https://goo.gl/oPVS4Y"
 ---
 
 {% include base_path %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+## Kaikki viestit
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}

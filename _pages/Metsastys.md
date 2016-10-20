@@ -1,5 +1,5 @@
 ---
-title: "Metsastys"
+title: "Metsästys"
 layout: single
 type: pages
 
@@ -16,7 +16,16 @@ header:
 
 # Ykköstason otsikko
 
+![image](images/sunset-288531_1280.jpg)
+
 ## Kakkostason otsikko
+
+Korostuksia:
+
+ * italics: _underscores_. (Cmd + i)
+ * Strong: **two asterisks** (Cmd + b)
+ * Strikethrough: ~~two tildes~~ (Cmd + h)
+
 
 1. Listan jäsen
 2. Listan jäsen
