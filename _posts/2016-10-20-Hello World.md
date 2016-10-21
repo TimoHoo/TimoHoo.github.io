@@ -7,6 +7,9 @@ tags:
   - metsästys
   - talkoot
 ---
+
+{% include base_path %}
+
 # Talkoolaisia tarvitaan perjantaina 11.11 klo. 18 alkaen imuroimaan ja teippaamaan mattoja.
 
 Talkoolaisia tarvitaan perjantaina 11.11 klo. 18 alkaen imuroimaan ja teippaamaan mattoja.
