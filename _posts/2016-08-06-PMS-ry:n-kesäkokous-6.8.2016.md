@@ -1,14 +1,16 @@
 ---
 title: "Pudasjärven metsästysseuran kesäkokous 6.8.2016"
-# excerpt: "Post displaying the various ways of highlighting code in Markdown."
 author: "Hannu Nissi"
 modified: 2016-08-12
 tags:
   - metsästys
   - vuosikokous
 ---
+
 ## Pudasjärven metsästysseuran alueella huonot metsäkanalintukannat
-Pudasjärven metsästysseura piti kesäkokoustaan lauantaina 6.8. Kokouksessa todettiin, että alueen metsäkanalintukannat ovat hyvin huonot. Yksi poikue on havaittu. Vesilintukannat lienevät jonkinlaisella tasolla. Sen sijaan jäniksiä on enemmän kuin edellisinä vuosina, mutta ensimmäiset havainnot jänisrutosta on jo tehty.  
+Pudasjärven metsästysseura piti kesäkokoustaan lauantaina 6.elokuuta.2016
+
+Kokouksessa todettiin, että alueen metsäkanalintukannat ovat hyvin huonot. Yksi poikue on havaittu. Vesilintukannat lienevät jonkinlaisella tasolla. Sen sijaan jäniksiä on enemmän kuin edellisinä vuosina, mutta ensimmäiset havainnot jänisrutosta on jo tehty.  
 
 ## Hirvenmetsästys
 Hirvikanta  on  vähintään edellisen vuoden tasolla ja suunta on ylöspäin. Hirvikannan kasvun negatiiviset vaikutukset on seuran  alueella  havaittu. Jo kaksi pahaa hirvikolaria seuran alueella on tapahtunut tämän kesän aikana. Todettiin, että nyt on syytä erityiseen varovaisuuteen iltojen pimetessä.

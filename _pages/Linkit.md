@@ -14,16 +14,13 @@ header:
 
 {% include base_path %}
 
-# Ykköstason otsikko
+## Viestien testisivu:
 
-## Kakkostason otsikko
-
-1. Listan jäsen
-2. Listan jäsen
-3. Listan jäsen
-   1. Listan jäsen
-   2. Listan jäsen
-
-Taulukon otsikko | Taulukon otsikko2 | Taulukon otsikko3
-Taulukon solu | Taulukon solu | Taulukon solu
-Taulukon solu | Taulukon solu | Taulukon solu
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

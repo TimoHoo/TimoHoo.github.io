@@ -14,8 +14,10 @@ header:
 
 {% include base_path %}
 
-# Ykköstason otsikko
+# 500 * 300 kuva 'excerpt teaser' määritystä varten
+![image](images/Puu_500_300.png)
 
+## Toinen kuva malliksi:
 ![image](images/sunset-288531_1280.jpg)
 
 ## Kakkostason otsikko

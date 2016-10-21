@@ -354,7 +354,7 @@ zh: &DEFAULT_ZH
 # Finish
 # -----------------
 fi: &DEFAULT_FI
-  page                       : "Sivu"
+  page                       : "sivu"
   pagination_previous        : "Edellinen"
   pagination_next            : "Seuraava"
   breadcrumb_home_label      : "Etusivu"
