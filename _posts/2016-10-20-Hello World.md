@@ -14,7 +14,7 @@ tags:
 
 Talkoolaisia tarvitaan perjantaina 11.11 klo. 18 alkaen imuroimaan ja teippaamaan mattoja.
 
-![image]({{ site.url }}/images/Puu_500_300.png)
+![image](Puu_500_300.png)
 
 Suurinta osaa talkoolaisia tarvitaan lauantaina 12.11. ja sunnuntaina 13.11. Meille kuuluu myös koirien ulkoilualueen siivous, siinä on parille talkoolaiselle hommaa aamusta alkaen.
 
