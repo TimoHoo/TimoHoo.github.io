@@ -109,7 +109,7 @@ GEM
       mini_portile2 (~> 2.1.0)
     nokogiri (1.6.8.1-x64-mingw32)
       mini_portile2 (~> 2.1.0)
-    octokit (4.3.0)
+    octokit (4.4.0)
       sawyer (~> 0.7.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -138,6 +138,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
 
 BUNDLED WITH
    1.13.2

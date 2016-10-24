@@ -1,12 +1,8 @@
 ---
 title: "Metsästys"
-layout: single
-type: pages
-
 excerpt: "Tämä on excerpt -teksti joka tulee näkyville kuvan päälle."
 sitemap: true
 permalink: /Metsastys
-
 header:
   overlay_image: Maisema_banner.png
   caption: "Photo: Timo Hoo"
