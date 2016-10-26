@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "fi"
-title                    : "Pudasjärven Metsästysseura ry"
+title                    :  "PMS ry"
 title_separator          : "-"
 name                     : "Timo Hoo"
 description              : "Melekosen komia webbisivu."
-url                        :  "https://TimoHoo.github.io" #"http://localhost:4000"
+url                        :  "" #"https://TimoHoo.github.io" #"http://localhost:4000"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TimoHoo/TimoHoo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "Puu_500_300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -109,7 +109,7 @@ analytics:
 # Site Author
 author:
   name             : "Timo Hoo"
-  avatar           : "bio-photo.jpg"
+  avatar           : "84b544f4712566c11338c.jpg"
   bio              : "Melekonen webbisivun tekijä."
   location         : "Oulu, Suomi"
   email            :

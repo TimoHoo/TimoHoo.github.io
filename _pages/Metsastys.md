@@ -7,22 +7,19 @@ header:
   overlay_image: Maisema_banner.png
   caption: "Photo: Timo Hoo"
 ---
-
+## Markdown muotoiluja:
 {% include base_path %}
 
-# 500 * 300 kuva 'excerpt teaser' määritystä varten
-![image](images/Puu_500_300.png)
-
-## Toinen kuva malliksi:
+## Kuva malliksi:
 ![image](images/sunset-288531_1280.jpg)
 
 ## Kakkostason otsikko
 
 Korostuksia:
 
- * italics: _underscores_. (Cmd + i)
- * Strong: **two asterisks** (Cmd + b)
- * Strikethrough: ~~two tildes~~ (Cmd + h)
+ * italics: _underscores - italics_. (Cmd + i)
+ * Strong: **two asterisks-Strong** (Cmd + b)
+ * Strikethrough: ~~two tildes-Strikethrough~~ (Cmd + h)
 
 
 1. Listan jäsen
