@@ -1,14 +1,12 @@
 ---
-title: "Arkisto"
+title: "Arkisto vuosittain"
 layout: archive
-# type: category_archive
 
-excerpt: "Tämä on excerpt -teksti."
+excerpt: "Tämä on arkisto vuosittaisia posteja ja viestejä varten."
 sitemap: true
 permalink: /Arkisto
 author_profile: true
 ---
-
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 
