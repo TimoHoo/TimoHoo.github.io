@@ -1,9 +1,9 @@
 ---
 
 ---
-# [Pudasjärven Metsästysseura ry kotisivu - DRAFT](https://timohoo.github.io/PMSry/)
+# [Timo Hoon kotisivu - DRAFT](https://TimoHoo.github.io/)
 
-* * * * 
+*  *  *  *
 
 ## Links:
 
