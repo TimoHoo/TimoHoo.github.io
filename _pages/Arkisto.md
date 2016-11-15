@@ -6,6 +6,7 @@ excerpt: "Tämä on arkisto vuosittaisia posteja ja viestejä varten."
 sitemap: true
 permalink: /Arkisto
 author_profile: true
+
 ---
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
