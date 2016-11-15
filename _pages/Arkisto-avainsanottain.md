@@ -1,11 +1,7 @@
 ---
-title: "Arkisto aihealueittain"
+title: "Arkisto avainsanojen mukaan"
 layout: archive
-# type: category_archive
-
-excerpt: "Tämä on arkisto aihealueittain posteja ja viestejä varten."
-sitemap: true
-permalink: /tags
+permalink: /tags/
 author_profile: true
 ---
 

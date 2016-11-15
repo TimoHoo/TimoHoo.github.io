@@ -1,16 +1,10 @@
 # main links
 main:
-  - title: "Seura"
-    url: /Seura
-
   - title: "Metsästys"
     url: /Metsastys
 
-  - title: "Riistariihi"
-    url: /Riistariihi
-
-  - title: "Linkit"
-    url: /Linkit
+    - title: "FraktaaliPuu"
+    url: /Puu
 
   - title: "Yhteystiedot"
     url: /Yhteystiedot
