@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 
 ---
@@ -20,11 +19,11 @@
 
 ---
 
-## Copyright
-
 Copyright
 <c> 2016 Timo Hoo
 =======
+
 # TimoHoo.github.io
+
 Personal web page experiment using Jekyll/mmistakes theme
->>>>>>> 63767394bfbb2cc9fc9709eb8e54f33ba3f0bbcc
+
