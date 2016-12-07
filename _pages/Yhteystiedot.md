@@ -8,11 +8,11 @@ sitemap: true
 permalink: /Yhteystiedot
 
 header:
-  overlay_image: Maisema_banner.png
+  overlay_image: /assets/images/Maisema_banner.png
   caption: "Photo: Timo Hoo"
----
 
-{% include base_path %}
+modified: 2016-12-07
+---
 
 # Ykköstason otsikko
 

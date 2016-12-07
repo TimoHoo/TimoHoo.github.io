@@ -7,8 +7,9 @@ sitemap: true
 permalink: /Arkisto
 author_profile: true
 
+modified: 2016-12-07
 ---
-{% include base_path %}
+
 {% capture written_year %}'None'{% endcapture %}
 
 {% for post in site.posts %}

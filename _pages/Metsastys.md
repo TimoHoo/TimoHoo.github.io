@@ -4,14 +4,15 @@ excerpt: "Tämä on excerpt -teksti joka tulee näkyville kuvan päälle."
 sitemap: true
 permalink: /Metsastys
 header:
-  overlay_image: Maisema_banner.png
+  overlay_image: /assets/images/Maisema_banner.png
   caption: "Photo: Timo Hoo"
+
+modified: 2016-12-07
 ---
 ## Markdown muotoiluja:
-{% include base_path %}
 
 ## Kuva malliksi:
-![image](images/sunset-288531_1280.jpg)
+![kuvatus](/assets/images/sunset-288531_1280.jpg) "Kuvateksti kuvan kaveriksi"
 
 ## Kakkostason otsikko
 

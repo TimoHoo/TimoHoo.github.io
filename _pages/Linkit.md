@@ -1,12 +1,14 @@
 ---
 title: "Linkit"
-excerpt: "Tämä on excerpt -teksti joka tulee näkyville kuvan päälle."
+excerpt: "Linkkikokoelma Timo Hoon kotisivuilla."
 sitemap: true
 permalink: /Linkit
 
 header:
-  overlay_image: Maisema_banner.png
+  overlay_image: /assets/images/Maisema_banner.png
   caption: "Photo: Timo Hoo"
+
+modified: 2016-12-07
 ---
 
 ## Under Construction
