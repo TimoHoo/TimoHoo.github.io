@@ -1,16 +1,15 @@
 ---
-title: Timo Hoon kotisivu
-excerpt: Learning while doing
-header:
-  overlay_image: /assets/images/Maisema_banner.png
-  caption: "Photo: Timo Hoo"
 
-# [Timo Hoon kotisivu - * Learning while doing * ](https://TimoHoo.github.io/)
 ---
-This is repository for my personal home pages jekyll source files.
-Inspired by Michael Rose: minimal-mistakes <https://github.com/mmistakes/minimal-mistakes> & GitHub pages environment.
+## [Timo Hoon kotisivu - *Learning while doing*](https://TimoHoo.github.io/)
 
-![Fraktaalipuu]({{ "assets/images/Fraktaalipuu.png" | absolute_url }})
+![banneri]( /assets/images/Maisema_banner.png) **Kiiminkijoki - Koiteli, autumn 2016**
+
+This is repository for my personal home pages source files.
+
+Inspired by Jekyll: <https://jekyllrb.com> & Michael Rose: <https://github.com/mmistakes/minimal-mistakes> & GitHub pages environment.
+
+![Fraktaalipuu]( /assets/images/Fraktaalipuu.png) **FractalTree sample**
 
 ## Links:
 
@@ -25,6 +24,7 @@ Inspired by Michael Rose: minimal-mistakes <https://github.com/mmistakes/minimal
 - [Stickyfill](https://github.com/wilddeer/stickyfill)
 
 <c> 2016 Timo Hoo
+
 =======
 
 Personal web page experiment using Jekyll / mmistakes theme
