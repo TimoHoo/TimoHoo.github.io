@@ -1,14 +1,15 @@
 ---
 title: "Metsästys"
-excerpt: "Tämä on excerpt -teksti joka tulee näkyville kuvan päälle."
+excerpt: "Kuvia vuosien varrelta."
 sitemap: true
 permalink: /Metsastys
 header:
   overlay_image: /assets/images/Maisema_banner.png
   caption: "Photo: Timo Hoo"
 
-modified: 2016-12-07
+modified: 2016-12-09
 ---
+
 ## Markdown muotoiluja:
 
 ## Kuva malliksi:
