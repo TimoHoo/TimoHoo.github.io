@@ -7,7 +7,7 @@ main:
     url: /Puu
 
   - title: "Kartta - OL3"
-    url: /OpenLayers
+    url: /OpenLayers3
 
   - title: "Yhteystiedot"
     url: /Yhteystiedot

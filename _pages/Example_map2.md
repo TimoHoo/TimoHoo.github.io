@@ -9,21 +9,21 @@ permalink: /OpenLayers
 modified: 2017-01-17
 
 link: rel="stylesheet" href="https://openlayers.org/en/v3.20.1/css/ol.css" type="text/css"
-#<link rel="stylesheet" href="https://openlayers.org/en/v3.20.1/css/ol.css" type="text/css">
-#
-#    <style>
-#      .map {
-#        height: 400px;
-#        width: 100%;
-#      }
-#    </style>
+
 # <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
 ---
-<script src="https://openlayers.org/en/v3.20.1/build/ol.js"> </script>
-
 ## Oulun seudun kartta
 
 <div id="kartta" class="map"></div>
+
+<style>
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+</style>
+
+<script src="https://openlayers.org/en/v3.20.1/build/ol.js"> </script>
 
 <script>
       var map = new ol.Map({
