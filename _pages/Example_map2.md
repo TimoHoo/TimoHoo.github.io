@@ -6,13 +6,13 @@ sitemap: false
 
 permalink: /OpenLayers
 
-modified: 2017-01-31
+modified: 2017-02-01
 
 link: rel="stylesheet" href="https://openlayers.org/en/v3.20.1/css/ol.css" type="text/css"
 
 
 ---
-## Oulun seudun kartta- OSM
+## Drag and Drop JSON, KML, GPX ym vektorit OSM kartalle
 
 <div id="kartta" class="map"></div>
 
@@ -25,4 +25,6 @@ link: rel="stylesheet" href="https://openlayers.org/en/v3.20.1/css/ol.css" type=
 
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
 
-<script src="assets/js/bundle.js"> </script>
+<script src="assets/js/DragnDropbundle.js"> </script>
+
+<div id="info">&nbsp;</div>
