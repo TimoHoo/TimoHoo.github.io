@@ -6,8 +6,8 @@ main:
   - title: "FraktaaliPuu"
     url: /Puu
 
-  - title: "Kartta - OL3"
-    url: /OpenLayers3
+  - title: "Kartta - OpenLayers"
+    url: /OpenLayers
 
   - title: "Yhteystiedot"
     url: /Yhteystiedot

@@ -1,17 +1,16 @@
 ---
-title: "OL3 - OSM esimerkki"
+title: "OL - OSM Drag'nDrop"
 layout: splash
 excerpt: "OpenLayers 3 esimerkki"
 sitemap: false
 
-permalink: /OpenLayers
+permalink: /OpenLayersD2D
 
-modified: 2017-02-01
-
-link: rel="stylesheet" href="https://openlayers.org/en/v3.20.1/css/ol.css" type="text/css"
-
+modified: 2017-02-13
 
 ---
+<link rel="stylesheet" href="/node_modules/openlayers/dist/ol.css" type="text/css">
+
 ## Drag and Drop JSON, KML, GPX ym vektorit OSM kartalle
 
 <div id="kartta" class="map"></div>
