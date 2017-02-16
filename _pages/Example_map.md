@@ -13,7 +13,7 @@ modified: 2017-02-16
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
-<title>Mobile full screen</title>
+
 <style type="text/css">
   html, body, .map {
     width: 100%;
