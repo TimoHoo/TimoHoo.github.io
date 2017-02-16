@@ -1,12 +1,12 @@
 ---
-title: "OL - Bing mobiili full-screen"
+title: "Geoloc OL - Kapsi"
 layout: splash
-excerpt: "OpenLayers Mobile esimerkki"
+excerpt: "OpenLayers Geoloc esimerkki"
 sitemap: false
 
 permalink: /OpenLayers
 
-modified: 2017-02-13
+modified: 2017-02-16
 ---
 <link rel="stylesheet" href="assets/css/ol.css" type="text/css">
 
@@ -19,13 +19,23 @@ modified: 2017-02-13
     width: 100%;
   }
 </style>
-
-# Oulun mobiilikartta - Bing
-
-<div id="kartta" class="map"></div>
+<div id="map" class="map"></div>
 
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
 
-<script src="assets/js/bundle_mobilefs.js"> </script>
+<script src="assets/js/ol.js"></script>
 
+<script src="assets/js/bundle_Geoloc.js"> </script>
 <div id="info">&nbsp;</div>
+
+<label for="track">
+  Paikanna
+  <input id="track" type="checkbox"/>
+</label>
+<p>
+  paikannustarkkuus: <code id="accuracy"></code>&nbsp;&nbsp;
+  korkeus merenpinnasta: <code id="altitude"></code>&nbsp;&nbsp;
+  korkeuden tarkkuus: <code id="altitudeAccuracy"></code>&nbsp;&nbsp;
+  suunta: <code id="heading"></code>&nbsp;&nbsp;
+  nopeus: <code id="speed"></code>
+</p>
