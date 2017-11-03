@@ -17,6 +17,23 @@
           65.412968
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#40678e",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "name": "Reppuvillen passi 1",
+        "desc": "Passipaikka varalaskupaikan ja Puurtoniemen lähellä"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.88774,
+          65.432833
+        ]
+      }
     }
   ]
 }
