@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#40678e",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "name": "Einon paikka",
+        "desc": "Passipaikka varalaskupaikan ja Puurtoniemen lähellä"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.879724,
+          65.412968
+        ]
+      }
+    }
+  ]
+}
