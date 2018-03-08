@@ -3,12 +3,16 @@
 <head>
 <title>Fractal tree</title>
 <style>
-* { margin: 0; padding: 0; font-size:110%;}
+* { margin: 0; padding: 0; font-size:100%;}
 div { float:left; margin-top: 3px; margin-bottom: 3px; margin-left: 5px; margin-right: 25px;}
 #canvas { display:block; margin: 0; padding: 0; float:left; }
 </style>
 </head>
 <body>
+	<button type="button" onclick="init_colors()">Change colors</button>
+
+	<canvas id="canvas"></canvas>
+
 <div class="controls">
 <div>
 <span class="fr">Angle:</span>
@@ -25,9 +29,8 @@ div { float:left; margin-top: 3px; margin-bottom: 3px; margin-left: 5px; margin-
 <input id="flexure_range" type="range" min="-90" max="90" value="0" step="10" onchange="init()" />
 <span id="flexure_span">0</span>
 </div>
-<button type="button" onclick="init_colors()">Change colors</button>
 </div>
-<canvas id="canvas"></canvas>
+
 <script type="text/javascript">
 window.onload = init_colors();
 
