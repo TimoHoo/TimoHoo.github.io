@@ -2,7 +2,7 @@
 title: "Hello World viesti"
 excerpt: "Ensimmäinen postaus uudella Jekyll työkalulla."
 author: "Timo Hoo"
-modified: 2016-10-24
+modified: 2018-03-08
 tags:
   - metsästys
   - talkoot
@@ -14,7 +14,7 @@ tags:
 
 Talkoolaisia tarvitaan perjantaina 11.11 klo. 18 alkaen imuroimaan ja teippaamaan mattoja.
 
-![kuva](/images/Puu_500_300.png)
+![kuva](assets/images/Puu_500_300.png)
 
 Suurinta osaa talkoolaisia tarvitaan lauantaina 12.11. ja sunnuntaina 13.11. Meille kuuluu myös koirien ulkoilualueen siivous, siinä on parille talkoolaiselle hommaa aamusta alkaen.
 
