@@ -7,7 +7,8 @@
 
 minimal_mistakes_skin    : "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-remote_theme: "mmistakes/minimal-mistakes@4.10.0"
+# update theme version to 4.12.1 2018-08-09
+remote_theme: "mmistakes/minimal-mistakes@4.12.1"
 
 # Site Settings
 locale                   : "fi"
@@ -196,11 +197,11 @@ timezone: Europe/Helsinki # https://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+#  - jekyll-paginate
+#  - jekyll-sitemap
+#  - jekyll-gist
+#  - jekyll-feed
+#  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
