@@ -1,6 +1,7 @@
-window.onload = init_colors();
 
 var r_init, g_init, b_init, r_delta, g_delta, b_delta;
+
+window.onload = init_colors();
 
 function init_colors()
 {
@@ -15,12 +16,12 @@ function init_colors()
 
 function init()
 {
-	var canvas = document.getElementById("canvas");
+	var canvas = document.getElementById("PiirtoAlusta");
 	var ctx = canvas.getContext("2d");
 	var W = window.innerWidth;
 	var H = window.innerHeight;
-	canvas.width = W - 127;
-	canvas.height = H - 127;
+	canvas.width = W * 0.9;
+	canvas.height = H * 0.9;
 
 	var length, angle, reduction, line_width, start_points = [];
 
@@ -31,7 +32,7 @@ function init()
 		ctx.fillStyle = "#3f4e51";
 		ctx.fillRect(0, 0, W, H);
 
-		length = 150;
+		length = 0.25 * H;
 		reduction = parseFloat(document.getElementById("complexity_range").value);
 		document.getElementById("complexity_span").innerHTML=reduction;
 		line_width = 12;
