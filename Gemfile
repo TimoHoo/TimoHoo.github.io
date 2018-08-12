@@ -15,15 +15,25 @@ gem "github-pages", group: :jekyll_plugins
 # To upgrade, run `bundle update`.
 
 # gem "jekyll", "~> 3.5"
+# gem "minimal-mistakes-jekyll"
 
-# gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# The following plugins are automatically loaded by the theme-gem, IF USING gem "minimal-mistakes-jekyll":
+   #gem "jekyll-paginate"
+   #gem "jekyll-sitemap"
+   #gem "jekyll-gist"
+   #gem "jekyll-feed"
+   #gem "jemoji"
+   #gem "jekyll-data"
+
+gem "jekyll-remote-theme"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-    #gem "jekyll-archives"
-    #gem "jekyll-paginate"
-    #gem "jekyll-sitemap"
-    #gem "jemoji"
-    #gem "jekyll-gist"
-    #gem "jekyll-feed"
+  #gem "jekyll-remote-theme"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
+  gem "jemoji"
+  gem "jekyll-data"
 end
