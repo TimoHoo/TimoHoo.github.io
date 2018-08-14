@@ -6,8 +6,7 @@ excerpt: "Tämä on Fraktaalipuu github esimerkin mukaan"
 sitemap: true
 permalink: /Puu2
 
-modified: 2018-08-09
-
+modified: 2018-08-10
 ---
 
 <body onload="init_colors()">
