@@ -23,10 +23,13 @@ url: "https://TimoHoo.github.io"
 minimal_mistakes_skin: "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
+# Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
+github: [metadata]
+
 # Build settings
 markdown: kramdown
-# update theme version to 4.16.4 2019-05-29
-remote_theme: "mmistakes/minimal-mistakes@4.16.4"
+# update theme version to 4.16.3 2019-05-29
+# remote_theme: "mmistakes/minimal-mistakes@4.16.3"
 
 # Outputting
 permalink: /:categories/:title/
@@ -35,19 +38,32 @@ paginate_path: /page:num/
 timezone: Europe/Helsinki # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
+  - .htaccess
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
 
 # Plugins (previously gems:)
 plugins:
@@ -57,10 +73,11 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
 author:
   name   : "Timo Hoo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Melekonen webbisivun tekijä."
+  bio    : "Melekonen webbisivun laatija."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

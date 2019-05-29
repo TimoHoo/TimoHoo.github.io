@@ -2,12 +2,12 @@
 title: "Arkisto vuosittain"
 layout: archive
 
-excerpt: "Tämä on arkisto vuosittaisia posteja ja viestejä varten."
+excerpt: "Tämä on arkisto posteja ja viestejä varten."
 sitemap: true
 permalink: /Arkisto
 author_profile: true
 
-modified: 2016-12-07
+modified: 2019-05-29
 ---
 
 {% capture written_year %}'None'{% endcapture %}
