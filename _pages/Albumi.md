@@ -8,7 +8,15 @@ header:
   overlay_image: /assets/images/PANO_20190104_110053~2.jpg
   caption: "Kuva: Timo Hoo"
 
-gallery:
+kalleria:
+  - url: /assets/images/PANO_20190104_110053~2.jpg
+    image_path: /assets/images/PANO_20190104_110053~2.jpg
+  - url: /assets/images/PANO_20190107_113034~2.jpg
+    image_path: /assets/images/PANO_20190107_113034~2.jpg
+  - url: /assets/images/PANO_20190107_113034~3.jpg
+    image_path: assets/images/PANO_20190107_113034~3.jpg
+
+gallery2:
   - url: /assets/images/thumbs/1552141760435.jpg
     image_path: /assets/images/thumbs/1552141760435.jpg
   - url: /assets/images/thumbs/1552306840324.jpg
@@ -49,4 +57,6 @@ modified: 2019-05-31
 
 ## Lapin kuvia:
 
-{% include gallery caption="Tämä on kuvakooste 2019 Lapin matkoilta." %}
+{% include gallery id="kalleria" caption="Panoraaamakuvia kaamoksella." %}
+
+{% include gallery id="gallery2" caption="Tämä on kuvakooste 2019 keväällä." %}
