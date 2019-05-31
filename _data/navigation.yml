@@ -9,11 +9,8 @@ main:
   - title: "Kartta - OpenLayers"
     url: /OpenLayersD2D
 
-  - title: "Yhteystiedot"
-    url: /Yhteystiedot
-
   - title: "Arkisto"
-    url: /Arkisto
+    url: /year-archive
 
 # example navigation
 foo:

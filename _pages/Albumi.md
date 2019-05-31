@@ -1,11 +1,11 @@
 ---
 title: "Albumi"
-excerpt: "Kuvia vuosien varrelta."
+excerpt: "Kuvia omista maisemista"
 sitemap: true
 permalink: /Albumi
 
 header:
-  overlay_image: /assets/images/Maisema_banner.png
+  overlay_image: /assets/images/PANO_20190104_110053~2.jpg
   caption: "Kuva: Timo Hoo"
 
 gallery:
@@ -44,7 +44,7 @@ gallery:
   - url: /assets/images/thumbs/1555933623178.jpg
     image_path: /assets/images/thumbs/1555933623178.jpg
 
-modified: 2019-05-30
+modified: 2019-05-31
 ---
 
 ## Lapin kuvia:

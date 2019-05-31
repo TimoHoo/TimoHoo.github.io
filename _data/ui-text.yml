@@ -909,7 +909,7 @@ fi: &DEFAULT_FI
   more_label                 : "Lisätietoja"
   related_label              : "Katso myös nämä:"
   follow_label               : "Seuraa:"
-  feed_label                 : "Täytä:"
+  feed_label                 : "RSS -syöte:"
   powered_by                 : "Käyttövoimana"
   website_label              : "Web osoite:"
   email_label                : "Sähköposti:"

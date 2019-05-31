@@ -1,18 +1,8 @@
 ---
-title: "Home - Front page"
-layout: single
-type: pages
-sitemap: true
+title: "Kotisivu"
+layout: home
+
 header:
-  overlay_image: assets/images/Maisema_banner.png
-  caption: "Photo: Timo Hoo"
+  overlay_image: /assets/images/PANO_20190107_113034~2.jpg
+  caption: "Kuva: Timo Hoo"
 ---
-
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
