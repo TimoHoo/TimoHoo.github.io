@@ -23,7 +23,7 @@ Inspired by Jekyll: <https://jekyllrb.com> & Michael Rose: <https://github.com/m
 - [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
 - [Stickyfill](https://github.com/wilddeer/stickyfill)
 
-<c> 2018 Timo Hoo
+<c> 2020 Timo Hoo
 
 =======
 

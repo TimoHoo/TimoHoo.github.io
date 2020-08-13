@@ -10,17 +10,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Timo Hoon kotisivut
+title: Timo Hoo, Oulu
 locale: "fi"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Timo Hoon kotisivut on minun henkilökohtainen oppimispolkuni
+  Timo Hoon kotisivut on henkilökohtainen oppimispolkuni
   nettisivujen tekemiseen käyttäen Jekyll työkaluja ja Minimal Mistakes
-  sivupohjia. Sivujen julkaisu tapahtuu GitHub Inc yrityksen nettiportaalissa.
+  kotisivun pohjia. Sivujen julkaisu tapahtuu GitHub Inc yrityksen nettiportaalissa.
 twitter_username: NN
 github_username: TimoHoo
 url: "https://TimoHoo.github.io"
-minimal_mistakes_skin: "default" #, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dirt" #"default" , "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
