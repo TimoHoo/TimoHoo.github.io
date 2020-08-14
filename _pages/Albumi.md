@@ -5,7 +5,7 @@ sitemap: true
 permalink: /Albumi
 
 header:
-  overlay_image: /assets/images/PANO_20190104_110053~2.jpg
+  overlay_image: /assets/images/Lumikero2020.png
   caption: "Kuva: Timo Hoo"
 
 kalleria:
@@ -52,7 +52,7 @@ gallery2:
   - url: /assets/images/thumbs/1555933623178.jpg
     image_path: /assets/images/thumbs/1555933623178.jpg
 
-modified: 2019-05-31
+modified: 2020-08-13
 ---
 
 ## Lapin kuvia:
