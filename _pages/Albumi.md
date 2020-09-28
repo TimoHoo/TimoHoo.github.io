@@ -1,6 +1,6 @@
 ---
 title: "Albumi"
-excerpt: "Kuvia omista maisemista"
+excerpt: "Kuvia Lapin maisemista"
 sitemap: true
 permalink: /Albumi
 
@@ -13,8 +13,6 @@ kalleria:
     image_path: /assets/images/PANO_20190104_110053~2.jpg
   - url: /assets/images/PANO_20190107_113034~2.jpg
     image_path: /assets/images/PANO_20190107_113034~2.jpg
-  - url: /assets/images/PANO_20190107_113034~3.jpg
-    image_path: assets/images/PANO_20190107_113034~3.jpg
 
 gallery2:
   - url: /assets/images/thumbs/1552141760435.jpg
@@ -52,11 +50,11 @@ gallery2:
   - url: /assets/images/thumbs/1555933623178.jpg
     image_path: /assets/images/thumbs/1555933623178.jpg
 
-modified: 2020-08-13
+modified: 2020-09-28
 ---
 
 ## Lapin kuvia:
 
-{% include gallery id="kalleria" caption="Panoraaamakuvia kaamoksella." %}
+{% include gallery id="kalleria" caption="Panoraaamakuva kaamoksella." %}
 
-{% include gallery id="gallery2" caption="Tämä on kuvakooste 2019 keväällä." %}
+{% include gallery id="gallery2" caption="Kuvakooste keväältä 2019." %}
