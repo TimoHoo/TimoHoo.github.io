@@ -10,6 +10,9 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+
+#gem "kramdown", ">= 2.3.1"
+
 # gem "jekyll-remote-theme"
 # To upgrade, run `bundle update`.
 
