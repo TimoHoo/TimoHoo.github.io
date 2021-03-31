@@ -16,7 +16,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Timo Hoon kotisivut on henkilökohtainen oppimispolkuni
   nettisivujen tekemiseen käyttäen Jekyll työkaluja ja Minimal Mistakes
-  kotisivun pohjia. Sivujen julkaisu tapahtuu GitHub Inc yrityksen nettiportaalissa.
+  kotisivun pohjia. Sivujen julkaisu tapahtuu GitHub Inc -yrityksen nettiportaalissa.
 twitter_username: NN
 github_username: TimoHoo
 url: "https://TimoHoo.github.io"
@@ -27,7 +27,8 @@ search: true
 github: [metadata]
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: GFM
 # update theme version to 4.16.3 2019-05-29
 # remote_theme: "mmistakes/minimal-mistakes@4.16.3"
 
