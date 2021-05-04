@@ -50,11 +50,11 @@ gallery2:
   - url: /assets/images/thumbs/1555933623178.jpg
     image_path: /assets/images/thumbs/1555933623178.jpg
 
-modified: 2020-09-28
+modified: 2021-05-02
 ---
 
-## Lapin kuvia:
+## Kuvia Enontekiöltä:
 
-{% include gallery id="kalleria" caption="Panoraaamakuva kaamoksella." %}
+{% include gallery id="kalleria" caption="Panoraaamakuvat kaamoksella." %}
 
 {% include gallery id="gallery2" caption="Kuvakooste keväältä 2019." %}
