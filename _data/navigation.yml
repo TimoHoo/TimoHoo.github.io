@@ -3,31 +3,8 @@ main:
   - title: "Albumi"
     url: /Albumi
 
-  - title: "FraktaaliPuu"
-    url: /Puu2
-
-  - title: "Kartta - OpenLayers"
-    url: /OpenLayersD2D
+  - title: "html - Fraktaali Puu"
+    url: _pages/Fractal_tree.html
 
   - title: "Arkisto"
     url: /year-archive
-
-# example navigation
-foo:
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/

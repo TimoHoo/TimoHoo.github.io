@@ -1,17 +1,16 @@
 ---
 title: "FraktaaliPuu"
-layout: splash
-#type: pages
+type: pages
+layout: single
 excerpt: "Tämä on Fraktaalipuu github esimerkin mukaan"
-sitemap: true
+sitemap: false
 permalink: /Puu2
 
-modified: 2018-08-10
+modified: 2021-05-05
 ---
-
-<body onload="init_colors()">
-
-<script type="text/javascript" src="assets/js/fractal.js"></script>
+/* <body onload="init_colors()"> */
+<body>
+<script type="text/javascript"> "/assets/js/fractal.js" </script>
 
 <div class="controls">
 
@@ -32,7 +31,7 @@ modified: 2018-08-10
 
 </div>
 
-<button type="btn" onclick="init_colors()">Change colors</button>
+<button type="btn" onclick="init_colors()">Vaihda värit</button>
 
 <canvas id="PiirtoAlusta"></canvas>
 
