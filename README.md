@@ -7,24 +7,14 @@
 
 This is repository for my personal home pages source files.
 
-Inspired by Jekyll: <https://jekyllrb.com> & Michael Rose: <https://github.com/mmistakes/minimal-mistakes> & GitHub pages environment.
+Inspired by Jekyll: <https://jekyllrb.com> & GitHub pages environment.
 
 ![Fraktaalipuu]( /assets/images/Fraktaalipuu.png) **FractalTree sample**
 
 ## Links:
 
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](http://codepen.io/lukejacksonn/pen/PwmwWV)
+- [Jekyll](https://jekyllrb.com/)
+- [Minima](https://github.com/jekyll/minima)
+- [jQuery](https://jquery.com/)
 - [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [Stickyfill](https://github.com/wilddeer/stickyfill)
-
-<c> 2021 Timo Hoo
-
-=======
-
-Personal web page experiment using Jekyll / mmistakes theme
+- [Greedy Navigation](https://github.com/lukejacksonn/GreedyNav)

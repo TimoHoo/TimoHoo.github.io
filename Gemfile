@@ -6,30 +6,21 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 #
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
 
+# This is the default theme for new Jekyll sites.
+# You may change this to anything you like.
+gem "minima", "~> 2.0"
+
+# To upgrade, run `bundle update github-pages`.
 # github pages gem is bundled with lots of other needed gems,
 # see https://pages.github.com/versions/
 gem "github-pages", group: :jekyll_plugins
 
-# To upgrade, run `bundle update`.
-
-# Updated to minimal-mistakes-4.22.0 - 4.5.2021
-
-# gem "jekyll", ">= 3.7", "< 5.0"
-# gem "minimal-mistakes-jekyll"
-
-# If you have any plugins outside from gem "github-pages", put them here!
-# runtime_dependency specs - See minimal-mistakes-jekyll.gemspec file
+# If you have any plugins, put them here!
 group :jekyll_plugins do
-#  #gem "jekyll-remote-theme"
-#  gem "jekyll-paginate", "~> 1.1"
-#  gem "jekyll-sitemap", "~> 1.3"
-#  gem "jekyll-gist", "~> 1.5"
-#  gem "jekyll-feed", "~> 0.1"
-#  gem "jemoji", "~> 0.12"
-#  gem "jekyll-data", "~> 1.0"
-#  gem 'faraday', '~> 0.16.2'
-  gem "jekyll-include-cache", "~> 0.1"
+#  gem "jekyll-feed", "~> 0.6"
 end
+
+# kramdown v2 ships without the gfm parser by default. If you're using
+# kramdown v1, comment out this line.
+#gem "kramdown-parser-gfm"

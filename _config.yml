@@ -1,140 +1,127 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file,
+# please restart the server process.
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Timo Hoo, Oulu
+title: Home
 locale: "fi"
-email:
+author:
+  name: Timo Hoo
+  email: timo.hoo55.th@gmail.com
+
 description: >- # this means to ignore newlines until "baseurl:"
-  Timo Hoon kotisivut on henkilökohtainen oppimispolkuni
-  nettisivujen tekemiseen käyttäen Jekyll työkaluja ja Minimal Mistakes
-  kotisivun pohjia. Sivujen julkaisu tapahtuu GitHub Inc -yrityksen nettiportaalissa.
-twitter_username: NN
-github_username: TimoHoo
-url: "https://TimoHoo.github.io"
-minimal_mistakes_skin: "dirt" #"default" , "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-search: true
+  Timo Hoon kotisivut on tehty nettisivujen tekemisen tueksi
+  liittyen omaan oppimispolkuuni.
+  Sivut on toteutettu käyttäen Jekyll -työkaluja.
+  Näiden sivujen julkaisu tapahtuu
+  GitHub Inc -firman nettiportaalissa.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+sass:
+    sass_dir: _sass
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%d %b, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: timohoo1
+    github:  timohoo
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    instagram: ""
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    telegram: ""
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - puu.md
+ - Albumi.md
+ - about.md
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
 github: [metadata]
 
 # Build settings
-# markdown: kramdown
-markdown: GFM
-# update remote theme version to 4.16.3 2019-05-29
-# remote_theme: "mmistakes/minimal-mistakes@4.16.3"
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+
 timezone: Europe/Helsinki # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
-author:
-  name   : "Timo Hoo"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Melekonen webbisivun laatija."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://timohoo.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+# Kuvagallerian hakemistot:
+imagesurl: "assets/images/gallery/"
+thumbsurl: "assets/images/thumbs/"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+# _posts
+
+# _pages
+#  - scope:
+#      path: "_pages"
+#      type: default
+
 #archives
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
-path: /tags/
+  path: /tags/
