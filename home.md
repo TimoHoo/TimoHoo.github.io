@@ -5,12 +5,11 @@ permalink: /index.html
 ---
 Tämä on henkilökohtainen nettisivujen tekemisen harjoitusalusta. Käytössä ovat Jekyll ja minima teemasivut:
 
-{% highlight html %}
+{% highlight ruby %}
 
-Jekyll is a static site generator. It_ takes text
+Jekyll is a static site generator. It takes text
 written in your favorite markup language and uses
 layouts to create a static website.
-<div>
 
 Minima is a one-size-fits-all Jekyll theme for writers.
 
