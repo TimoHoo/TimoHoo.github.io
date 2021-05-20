@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-20T22:08:54+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Home</title><subtitle>Timo Hoon kotisivut on tehty nettisivujen tekemisen tueksi liittyen omaan oppimispolkuuni. Sivut on toteutettu käyttäen Jekyll -työkaluja. Näiden sivujen julkaisu tapahtuu GitHub Inc -firman nettiportaalissa.</subtitle><author><name>Timo Hoo</name><email>timo.hoo55.th@gmail.com</email></author><entry><title type="html">Google hakukone testi</title><link href="http://localhost:4000/google/script/hakukone-google-testi/" rel="alternate" type="text/html" title="Google hakukone testi" /><published>2021-05-08T09:04:06+03:00</published><updated>2021-05-08T09:04:06+03:00</updated><id>http://localhost:4000/google/script/hakukone-google-testi</id><content type="html" xml:base="http://localhost:4000/google/script/hakukone-google-testi/">&lt;h2 id=&quot;hakukoneen-skriptin-pätkä-&quot;&gt;Hakukoneen skriptin pätkä ..&lt;/h2&gt;
+
+&lt;p&gt;Kokeile google hakukoneen skriptiä alla olevaan kenttään:&lt;/p&gt;
+
+&lt;div&gt;
+
+&lt;script&gt;
+  (function() {
+    var cx = '006606746917410810593:e80vcmjj5yc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+&lt;/script&gt;
+&lt;gcse:search&gt;&lt;/gcse:search&gt;
+
+&lt;/div&gt;</content><author><name>Timo Hoo</name><email>timo.hoo55.th@gmail.com</email></author><category term="google" /><category term="script" /><summary type="html">Hakukoneen skriptin pätkä ..</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-05-07T17:18:06+03:00</published><updated>2021-05-07T17:18:06+03:00</updated><id>http://localhost:4000/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/welcome-to-jekyll/">&lt;p&gt;Jekyll offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Timo'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Timo' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Timo Hoo</name><email>timo.hoo55.th@gmail.com</email></author><category term="jekyll" /><category term="update" /><summary type="html">Jekyll offers powerful support for code snippets:</summary></entry></feed>

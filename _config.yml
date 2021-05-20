@@ -75,7 +75,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - puu.md
- - Albumi.md
+ - albumi.md
+ - kuvagalleria.md
  - about.md
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
@@ -108,8 +109,8 @@ timezone: Europe/Helsinki # https://en.wikipedia.org/wiki/List_of_tz_database_ti
 #   - vendor/ruby/
 
 # Kuvagallerian hakemistot:
-imagesurl: "assets/images/gallery/"
-thumbsurl: "assets/images/thumbs/"
+imagesurl: "/assets/images/gallery/"
+thumbsurl: "/assets/images/thumbs/"
 
 defaults:
 # _posts
