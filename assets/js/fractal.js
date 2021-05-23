@@ -21,7 +21,7 @@ function init()
 	var W = window.innerWidth;
 	var H = window.innerHeight;
 	canvas.width = W * 0.9;
-	canvas.height = H * 0.9;
+	canvas.height = H * 1.0;
 
 	var length, angle, reduction, line_width, start_points = [];
 
@@ -29,13 +29,13 @@ function init()
 
 	function draw()
 	{
-		ctx.fillStyle = "#3f4e51";
+    ctx.fillStyle = "#002b36";
 		ctx.fillRect(0, 0, W, H);
 
 		length = 0.25 * H;
 		reduction = parseFloat(document.getElementById("complexity_range").value);
 		document.getElementById("complexity_span").innerHTML=reduction;
-		line_width = 12;
+    line_width = 18;
 		angle = parseInt(document.getElementById("angle_range").value);
 		document.getElementById("angle_span").innerHTML=angle;
 		flexure = parseInt(document.getElementById("flexure_range").value);
