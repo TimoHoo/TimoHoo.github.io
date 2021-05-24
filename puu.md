@@ -1,10 +1,10 @@
 ---
-title: "Fraktaali puu"
-layout: default
+title: "Fraktaalipuu(2)"
+layout: page
 excerpt: "Github esimerkin mukaisesti modattu Fractal Tree"
 permalink: /fpuu
 
-date: 2021-05-10
+date: 2021-05-23
 ---
 
 <button type="button" onclick="init_colors()">Muuta värit</button>
@@ -24,7 +24,7 @@ date: 2021-05-10
 <input id="flexure_range" type="range" min="-30" max="30" value="0" step="5" onchange="init()" />
 </div>
 
-<canvas id="PiirtoAlusta" width="100%" height="90%">
+<canvas id="PiirtoAlusta">
 </canvas>
 
 <script src="assets/js/fractal.js">
