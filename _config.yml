@@ -23,9 +23,7 @@ author:
 description: >- # this means to ignore newlines until "baseurl:"
   Timo Hoon kotisivut on tehty nettisivujen tekemisen tueksi
   liittyen omaan oppimispolkuuni.
-  Sivut on toteutettu käyttäen Jekyll -työkaluja.
-  Näiden sivujen julkaisu tapahtuu
-  GitHub Inc -firman nettiportaalissa.
+  Julkaisu on GitHub Inc -palvelussa.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -78,6 +76,7 @@ header_pages:
 # - puu.md
  - albumi.md
  - kuvagalleria.md
+ - kolmeD.md
 # - about.md
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."

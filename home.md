@@ -17,12 +17,13 @@ Minima is a one-size-fits-all Jekyll theme for writers.
 
 Inspired by Jekyll: <https://jekyllrb.com> & GitHub pages environment.
 
-![Kiiminki-Koiteli]( /assets/images/Maisema_banner.png) **Kiiminkijoki - Koiteli, syksy 2016**
+![Kiiminki-Koiteli]( /assets/images/Maisema_banner.png) **Kiiminkijoki - Koiteli**
 
 ![Fraktaalipuu]( /assets/images/Fraktaalipuu.png) **FractalTree sample**
 
 ## Linkkejä:
 
+- [THREE](https://threejs.org/)
 - [Jekyll](https://jekyllrb.com/)
 - [Minima](https://github.com/jekyll/minima)
 - [jQuery](https://jquery.com/)
