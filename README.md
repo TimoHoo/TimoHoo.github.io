@@ -13,6 +13,8 @@ Inspired by Jekyll: <https://jekyllrb.com> & GitHub pages environment.
 
 ## Links:
 
+- [THREE](https://threejs.org/)
+- [Sketchfab](https://sketchfab.com/3d-models/)
 - [Jekyll](https://jekyllrb.com/)
 - [Minima](https://github.com/jekyll/minima)
 - [jQuery](https://jquery.com/)
