@@ -76,8 +76,6 @@ header_pages:
 # - puu.md
  - albumi.md
  - kuvagalleria.md
- - kolmeD.md
- - Villisika.md
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
 github: [metadata]
